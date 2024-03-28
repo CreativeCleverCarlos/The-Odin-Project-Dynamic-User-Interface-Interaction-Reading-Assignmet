@@ -1,0 +1,106 @@
+body{
+    background-color: lightgreen;
+}
+
+/* The box itself. Sizing, background color and display type*/
+
+.full-container{
+    display: inline-block;
+}
+
+#dropdown{
+    flex-direction: column;
+    background-color: azure;
+    max-width: 15vw;
+    min-width: 10vw;
+}
+
+.btn{
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+    max-width: 20vw;
+    min-width: 15vw;
+}
+
+.btn:hover, .btn:focus{
+    background-color: lightseagreen;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    padding: .2rem;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: lightgray;
+}
+
+/* This will be adde to the javascript to show the menu*/
+.show{
+    display:block
+}
+
+/* .btn {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: var(--gap);
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: var(--radius);
+    border: none;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+
+  
+  .dropdown {
+    position: absolute;
+    width: 250px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin-top: 0.3rem;
+    background: white;
+
+    transition: all 0.1s cubic-bezier(0.16, 1, 0.5m 1);
+    transform: translateY(0.5rem);
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .show{
+    transform: translate(0rem);
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+  .dropdown a {
+    display: flex;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown a:hover {
+    background-color: var(--color);
+    color: white;
+  }
+
+  body {
+    margin: 2rem;
+    background-color: #b3e6f4;
+    font-size: 0.9rem;
+    color: black;
+  } */
